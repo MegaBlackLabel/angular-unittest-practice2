@@ -20,18 +20,17 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash",
-		"go.useLanguageServer": true
+		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": ["wraith13.background-phi-colors", "johnpapa.angular-essentials"],
+	"extensions": ["wraith13.background-phi-colors", "johnpapa.angular-essentials","editorconfig.editorconfig"],
 
 	// Uncomment the next line if you want start specific services in your Docker Compose config.
 	// "runServices": [],
 
 	// Uncomment the next line if you want to keep your containers running after VS Code shuts down.
-	"shutdownAction": "stopCompose",
+	"shutdownAction": "none",
 
 	// Uncomment the next line to run commands after the container is created - for example installing git.
 	// "postCreateCommand": "apt-get update && apt-get install -y git",
